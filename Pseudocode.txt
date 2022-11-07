@@ -1,0 +1,11 @@
+python file check whether it's working or not ✅
+
+python file -> main.py activate ps1..✅
+
+return render template (password generator code in it)
+
+html design - Random Pass generator (center title)
+
+uyhsag^fo#ji%a@67!9HAk$fs (random password generate)
+
+copy \\ submit

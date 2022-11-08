@@ -12,15 +12,16 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/static/css/style.css">
-    <script src="/static/js/bootstrap.js"></script>
+    <script src="/static/js/script.js"></script>
 </head>
 <body>
-    <video autoplay muted loop id="myVideo">
-        <source src="/static/assets/video/gradient_bg.mp4" type="video/mp4">
-      </video>
+    <img src="/static/assets/bg/gradient_bg.jpg" id="selector"/>
       <div class="container">
         <h1>Random Password Generator<center</h1>
         <h2 id="password">{{final_password}}</h2>
@@ -30,6 +31,11 @@
 
       <div class="alert alert-success collapse" role="alert" style="display: none;"> Password copied to clipboard.</div>
 
-      
+      <div class="container my-5">
+        <ul class="socials">
+          <a href="https://www.linkedin.com/in/sarthaklambaa" class="fa fa-linkedin "></a>
+          <a href="https://github.com/sarthaklambaa" class="fa fa-github"></a>
+        </ul>
+
 </body>
 </html>
